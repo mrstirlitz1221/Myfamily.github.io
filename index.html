@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Семья Евграфовых</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ ДЕРЕВО (ГЛАВНАЯ) ============ -->
+<main class="view active" id="view-tree">
+  <div class="glow"></div>
+  <div class="tree-head">
+    <span class="hero-eyebrow hand">нажмите на человека</span>
+    <h1>Семья <em>Евграфовых</em></h1>
+    <p>Небольшое семейное дерево. У каждого — своя страница: история, увлечения, любимая фраза.</p>
+  </div>
+
+  <div class="tree">
+    <div class="couple-row">
+      <button class="node" data-person="dmitry">
+        <span class="avatar"><img src="images/dmitry.jpg" alt="Дмитрий"></span>
+        <span class="name">Дмитрий</span>
+        <span class="role">папа</span>
+      </button>
+      <span class="tie"></span>
+      <button class="node" data-person="larisa">
+        <span class="avatar"><img src="images/larisa.jpg" alt="Лариса"></span>
+        <span class="name">Лариса</span>
+        <span class="role">мама</span>
+      </button>
+    </div>
+
+    <span class="trunk"></span>
+    <span class="bar" style="width:138px;"></span>
+
+    <div class="children-row">
+      <div class="child-col">
+        <span class="drop"></span>
+        <button class="node" data-person="tamara">
+          <span class="avatar"><img src="images/tamara.jpg" alt="Тамара"></span>
+          <span class="name">Тамара</span>
+          <span class="role">дочь</span>
+        </button>
+      </div>
+      <div class="child-col">
+        <span class="drop"></span>
+        <button class="node" data-person="maxim">
+          <span class="avatar"><img src="images/maxim.jpg" alt="Максим"></span>
+          <span class="name">Максим</span>
+          <span class="role">сын</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="sig">с любовью, Евграфовы</div>
+  </footer>
+</main>
+
+<!-- ============ ДМИТРИЙ ============ -->
+<main class="view" id="view-dmitry" data-title="Дмитрий — Евграфовы">
+  <button class="back" data-back><span class="arrow">←</span> ко всей семье</button>
+  <div class="person">
+    <div class="avatar-big"><img src="images/dmitry.jpg" alt="Дмитрий"></div>
+    <span class="role hand">папа</span>
+    <h2>Дмитрий</h2>
+    <p class="bio">Дмитрий — глава семьи, пожарный и человек, на которого всегда можно положиться в трудную минуту. Его работа требует ответственности, смелости и умения быстро принимать решения, и эти качества помогают ему не только на службе, но и в повседневной жизни.
+    <br><br>
+    В свободное время Дмитрий любит заниматься электрикой, разбираться в различных механизмах и ремонтировать технику. Ему нравится находить решения сложных задач и возвращать к жизни вещи, которые другие уже считают неисправными. Благодаря своему опыту и любознательности он всегда готов помочь советом или делом.
+    <br><br>
+    Для Дмитрия важны семья, честность и ответственность. Он уверен, что любую проблему можно решить, если подойти к ней с терпением и желанием разобраться.
+</p>
+    <div class="facts">
+      <div class="fact"><span class="label">профессия</span><span class="val">Пожарный</span></div>
+      <div class="fact"><span class="label">увлечения</span><span class="val">Электрика, ремонт техники, механизмы</span></div>
+      <div class="fact"><span class="label">фраза</span><span class="val">«Нет безвыходных ситуаций — нужно только найти решение.»</span></div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ ЛАРИСА ============ -->
+<main class="view" id="view-larisa" data-title="Лариса — Евграфовы">
+  <button class="back" data-back><span class="arrow">←</span> ко всей семье</button>
+  <div class="person">
+    <div class="avatar-big"><img src="images/larisa.jpg" alt="Лариса"></div>
+    <span class="role hand">мама</span>
+    <h2>Лариса</h2>
+    <p class="bio">Лариса — заботливая мама и хранительница домашнего уюта. Она работает библиотекарем и любит книги, знания и возможность помогать людям находить интересные истории и полезную информацию. Благодаря своей доброте и внимательности она легко находит общий язык с окружающими.
+    <br><br>
+    В свободное время Лариса любит готовить вкусные блюда для семьи и заниматься садоводством. Ей нравится ухаживать за растениями, создавать красоту вокруг дома и наблюдать, как благодаря труду и заботе всё растёт и расцветает. Она умеет создавать уютную атмосферу, в которой каждому приятно находиться.
+    <br><br>
+    Для Ларисы важны семья, доброта и взаимопонимание. Она верит, что тепло и забота, подаренные другим людям, всегда возвращаются обратно.
+</p>
+    <div class="facts">
+      <div class="fact"><span class="label">профессия</span><span class="val">Библиотекарь</span></div>
+      <div class="fact"><span class="label">увлечения</span><span class="val">Кулинария, садоводство, книги</span></div>
+      <div class="fact"><span class="label">фраза</span><span class="val">«Там, где есть забота и любовь, всегда будет уют.»</span></div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ ТАМАРА ============ -->
+<main class="view" id="view-tamara" data-title="Тамара — Евграфовы">
+  <button class="back" data-back><span class="arrow">←</span> ко всей семье</button>
+  <div class="person">
+    <div class="avatar-big"><img src="images/tamara.jpg" alt="Тамара"></div>
+    <span class="role hand">дочь</span>
+    <h2>Тамара</h2>
+    <p class="bio">Тамара — общительный и энергичный человек, который умеет находить подход к людям. Она работает в сфере страхования недвижимости, помогая клиентам защищать своё имущество и чувствовать уверенность в будущем. В своей работе Тамара ценит ответственность, внимательность и доверие.
+    <br><br>
+    Одним из её любимых занятий является приготовление вкусных блюд. Ей нравится радовать близких новыми рецептами и создавать атмосферу тепла за семейным столом. Также Тамара любит общение, новые знакомства и интересные разговоры, поэтому рядом с ней людям легко и комфортно.
+    <br><br>
+    Для Тамары важны семья, дружба и искренние отношения между людьми. Она старается относиться к окружающим с добротой и считает, что хорошее настроение и доброе слово способны сделать день лучше.
+</p>
+    <div class="facts">
+      <div class="fact"><span class="label">чем занята</span><span class="val">Страхование недвижимости</span></div>
+      <div class="fact"><span class="label">увлечения</span><span class="val">Кулинария, общение с людьми, новые знакомства</span></div>
+      <div class="fact"><span class="label">фраза</span><span class="val">«Лучшие моменты жизни — те, которые можно разделить с другими.»</span></div>
+    </div>
+  </div>
+</main>
+
+<!-- ============ МАКСИМ ============ -->
+<main class="view" id="view-maxim" data-title="Максим — Евграфовы">
+  <button class="back" data-back><span class="arrow">←</span> ко всей семье</button>
+  <div class="person">
+    <div class="avatar-big"><img src="images/maxim.jpg" alt="Максим"></div>
+    <span class="role hand">сын</span>
+    <h2>Максим</h2>
+    <p class="bio">
+    Максим — студент-программист, который с детства интересуется технологиями и созданием собственных проектов. Он любит решать задачи по программированию, участвовать в олимпиадах и постоянно изучать что-то новое в сфере IT.
+    <br><br>
+    В свободное время играет в Dota 2, увлекается компьютерными играми, путешествиями по горам Иссык-Кульской области и походами. Для него важны семья, дружба и постоянное развитие. Максим мечтает стать сильным специалистом в программировании, создавать собственные проекты и однажды реализовать идеи, которые смогут приносить пользу другим людям.
+    </p>
+    <div class="facts">
+      <div class="fact"><span class="label">чем занят</span><span class="val">Студент-программист, изучает разработку и ИИ</span></div>
+      <div class="fact"><span class="label">увлечения</span><span class="val">Программирование, Dota 2, горы, Young Life</span></div>
+      <div class="fact"><span class="label">фраза</span><span class="val">«Птицей Гермеса меня называют, свои крылья пожирая, сам себя я укрощаю»</span></div>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
